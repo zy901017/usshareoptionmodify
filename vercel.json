@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "api/*.ts": {
+      "memory": 1024,
+      "maxDuration": 10
+    }
+  },
+  "installCommand": "npm ci",
+  "buildCommand": "npm run build"
+}
